@@ -40,7 +40,7 @@ window.addEventListener('load', async () => {
     }
     //  - of no pet, redirect to list (home) page
     if (!pet) {
-        //location.replace('/');
+        location.replace('/');
         //  - otherwise, display pet
     } else {
         displayPet();
